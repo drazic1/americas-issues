@@ -32,6 +32,19 @@ path {
   stroke-width: 5px;
 }
 
+.axis-label {
+  text-anchor: end;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: 13px;
+  fill: black;
+}
+
+.axis-label:hover {
+  font-size: 14px;
+  font-weight: bold;
+}
+
 .legend-cell.inactive {
   opacity: 0.2;
 }
@@ -55,7 +68,7 @@ path {
   box-shadow: 1px 1px 8px 1px #bbbbbb;
 }
 
-.legend-cell:hover{
+.legend-cell:hover {
   box-shadow: none;
 }
 
