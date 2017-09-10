@@ -9031,7 +9031,7 @@ var height = 600 - margin.top - margin.bottom;
 
 var xScale = d3.scaleBand().range([0, width]);
 var yScale = {};
-var colorScale = d3.scaleOrdinal().range(["#263238", "#80CBC4", "#26A69A", "#00695C", "#004D40", "#42A5F5", "#0D47A1", "#FFF59D", "#FDD835", "#FFEA00", "#F57F17", "#EF9A9A", "#F44336", "#D32F2F", "#B71C1C", "#CE93D8", "#8E24AA", "#4A148C", "#FFECB3", "#FFD54F", "#FFC107", "#FFA000", "#FF6F00", "#BCAAA4", "#8D6E63", "#5D4037", "#3E2723"]);
+var colorScale = d3.scaleOrdinal().range(["#263238", "#80CBC4", "#26A69A", "#00695C", "#004D40", "#42A5F5", "#0D47A1", "#F48FB1", "#EC407A", "#C2185B", "#880E4F", "#EF9A9A", "#F44336", "#D32F2F", "#B71C1C", "#CE93D8", "#8E24AA", "#4A148C", "#FFECB3", "#FFD54F", "#FFC107", "#FFA000", "#FF6F00", "#BCAAA4", "#8D6E63", "#5D4037", "#3E2723"]);
 
 var line = d3.line();
 var axis = d3.axisLeft();
