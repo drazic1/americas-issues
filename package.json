@@ -1,0 +1,32 @@
+{
+  "name": "americas-issues",
+  "version": "1.0.0",
+  "description": "What do you think is the biggest issue facing the country today?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drazic1/americas-issues.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drazic1/americas-issues/issues"
+  },
+  "homepage": "https://github.com/drazic1/americas-issues#readme",
+  "dependencies": {
+    "d3": "^4.10.2",
+    "d3-axis": "^1.0.8",
+    "d3-dsv": "^1.0.7",
+    "d3-scale": "^1.0.6"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "webpack": "^3.5.6"
+  }
+}

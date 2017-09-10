@@ -1,0 +1,140 @@
+.page-title{
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.legend {
+  display: flex;
+  flex-direction: column;
+}
+
+.p-line {
+  fill: none;
+}
+
+path {
+  opacity: 0.3;
+}
+
+.inactive {
+  opacity: 0.05;
+}
+
+.active {
+  opacity: 1;
+  stroke-width: 5px;
+}
+
+.legend-cell {
+  width: 110px;
+  height: 40px;
+  margin: 5px 2px;
+  text-align: center;
+  font-size: 1.1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+.legend-title{
+  font-size: 1.2em;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.demo-group {
+  display: flex;
+  flex-direction: row;
+}
+
+.Total {
+  background: #263238;
+}
+.Age-18-29 {
+  background: #80cbc4;
+}
+.Age-30-44 {
+  background: #26a69a;
+}
+.Age-45-64 {
+  background: #00695c;
+}
+.Age-65-and-Over {
+  background: #004d40;
+}
+
+.Gender-Male {
+  background: #42a5f5;
+}
+.Gender-Female {
+  background: #0d47a1;
+}
+.Race-White {
+  background: #fff59d;
+}
+.Race-Black {
+  background: #fdd835;
+}
+.Race-Hispanic {
+  background: #ffea00;
+}
+.Race-Other {
+  background: #f57f17;
+}
+
+.Educ-HS-or-Less {
+  background: #ef9a9a;
+}
+.Educ-Some-College {
+  background: #f44336;
+}
+.Educ-College-Grad {
+  background: #d32f2f;
+}
+.Educ-Post-Grad {
+  background: #b71c1c;
+}
+
+.Party-Dem {
+  background: #ce93d8;
+}
+.Party-Rep {
+  background: #8e24aa;
+}
+.Party-Ind {
+  background: #4a148c;
+}
+.Ideology-Very-liberal {
+  background: #ffecb3;
+}
+.Ideology-Liberal {
+  background: #ffd54f;
+}
+.Ideology-Moderate {
+  background: #ffc107;
+}
+.Ideology-Conservative {
+  background: #ffa000;
+}
+.Ideology-Very-Conservative {
+  background: #ff6f00;
+}
+
+.Icome-Less-than-40k {
+  background: #bcaaa4;
+}
+.Icome-40-80k {
+  background: #8d6e63;
+}
+.Icome-80-120k {
+  background: #5d4037;
+}
+.Icome-Over-120k {
+  background: #3e2723;
+}
