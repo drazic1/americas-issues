@@ -9074,9 +9074,9 @@ function buildParallel(surveyData) {
     d3.select(this).call(axis.scale(yScale[d]));
   });
 
-  var label = g.append("text").style("text-anchor", "end").style("cursor", "pointer").attr("y", 20).text(function (d) {
+  var label = g.append("text").attr("y", 20).text(function (d) {
     return d;
-  }).attr("font-family", "sans-serif").attr("font-size", "13px").attr("fill", "black").attr("transform", function (d) {
+  }).attr("class", "axis-label").attr("transform", function (d) {
     return "translate(0, " + height + ")rotate(-45)";
   });
 

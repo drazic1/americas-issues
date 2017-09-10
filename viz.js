@@ -104,15 +104,11 @@ function buildParallel(surveyData) {
 
   const label = g
     .append("text")
-    .style("text-anchor", "end")
-    .style("cursor", "pointer")
     .attr("y", 20)
     .text(function(d) {
       return d;
     })
-    .attr("font-family", "sans-serif")
-    .attr("font-size", "13px")
-    .attr("fill", "black")
+    .attr("class", "axis-label")
     .attr("transform", d => "translate(0, " + height + ")rotate(-45)");
 
   const dataLines = svg
