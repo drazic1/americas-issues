@@ -1,9 +1,13 @@
-.page-title{
+.page-title {
   text-align: center;
+  color: #005999;
+  font-family: "Open Sans Condensed", sans-serif;
 }
 .container {
   display: flex;
   flex-direction: row;
+  color: #005999;
+  font-family: "Open Sans Condensed", sans-serif;
 }
 
 .legend {
@@ -16,16 +20,24 @@
 }
 
 path {
-  opacity: 0.3;
+  opacity: 0.7;
 }
 
-.inactive {
+.p-line.inactive {
   opacity: 0.05;
 }
 
-.active {
+.p-line.active {
   opacity: 1;
   stroke-width: 5px;
+}
+
+.legend-cell.inactive {
+  opacity: 0.2;
+}
+
+.legend-cell.active {
+  opacity: 1;
 }
 
 .legend-cell {
@@ -40,9 +52,14 @@ path {
   color: white;
   font-family: sans-serif;
   cursor: pointer;
+  box-shadow: 1px 1px 8px 1px #bbbbbb;
 }
 
-.legend-title{
+.legend-cell:hover{
+  box-shadow: none;
+}
+
+.legend-title {
   font-size: 1.2em;
   font-weight: bold;
   font-family: sans-serif;

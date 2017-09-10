@@ -9162,7 +9162,6 @@ function toggleActiveness(category) {
   // else activate
   var pathElement = d3.select(".p-line." + category.split(" ").join("-"));
   var legendElement = d3.select(".legend-cell." + category.split(" ").join("-"));
-  debugger;
   var classes = pathElement.attr("class").split(" ");
   if (classes.indexOf("inactive") !== -1) {
     legendElement.classed("active", true);
